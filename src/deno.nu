@@ -1,13 +1,13 @@
-# Interprete de JS y TS
+# Un moderno entorno de ejecución de JavaScript y TypeScript.
 def "deno" [] {
-  # estoy usando https://docs.deno.com/runtime/reference/cli/ para el autocompletado
+  # me estoy basando en https://docs.deno.com/runtime/reference/cli/ para crear el autocompletado
   ^deno
 }
 
-# Ejecuta un archivo
+# Ejecuta un programa JavaScript o TypeScript, o una tarea.
 extern "deno run" [
   # Opciones de comprobacion(check)
-  --check # Habilida la verificacion de tiposi
+  --check # Habilida la verificacion de tipos
   --no-check # Ya no comprueba los tipos
   # Opciones de manejo de dependencias
   --cached-only # Exigir que las dependencias remotas ya estén almacenadas en caché.
@@ -53,3 +53,5 @@ extern "deno run" [
   --allow-run # Da permiso para ejecutar sub-procesos.
   ...args
 ]
+
+#
