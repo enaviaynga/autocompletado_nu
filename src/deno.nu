@@ -8,3 +8,4 @@ def "deno" [] {
 
 source ./deno/run.nu
 source ./deno/serve.nu
+source ./deno/serve.nu
