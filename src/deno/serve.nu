@@ -2,13 +2,13 @@
 extern "deno serve" [
   # Opciones de comprobacion(check)
   --check # Habilida la verificacion de tipos
-  --check=all # Se verificaran los módulos remotos. Como alternativa, se puede utilizar el subcomando «deno check».
+  --check=all # Se verificaran los módulos remotos. Como alternativa, se puede utilizar el subcomando 'deno check'.
   --no-check # Ya no comprueba los tipos
   # Opciones de manejo de dependencias
   --cached-only # Exigir que las dependencias remotas ya estén almacenadas en caché.
   --frozen # Mostrar un error si el archivo de bloqueo está desactualizado.
   --import-map # Cargar el archivo de mapa de importación desde un archivo local o una URL remota.
-  --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es «./deno.lock»).
+  --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es './deno.lock').
   --no-lock # Desactivar la detección automática del archivo de bloqueo.
   --no-npm # No resolver los módulos npm.
   --no-remote # No resolver los modulos remoto.

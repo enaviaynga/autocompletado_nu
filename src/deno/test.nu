@@ -2,13 +2,13 @@
 extern "deno test" [
   # Opciones de comprobacion(check)
   --check # Establece el comportamiento de comprobación de tipos.
-  --check=all # Se incluirán los módulos remotos. Como alternativa, se puede utilizar el subcomando «deno check».
+  --check=all # Se incluirán los módulos remotos. Como alternativa, se puede utilizar el subcomando 'deno check'.
   --no-check # Ya no comprueba los tipos
   # Opciones de manejo de dependencias
   --cached-only # Exigir que las dependencias remotas ya estén almacenadas en caché.
   --frozen # Mostrar un error si el archivo de bloqueo está desactualizado.
   --import-map # Cargar el archivo de mapa de importación desde un archivo local o una URL remota.
-  --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es «./deno.lock»).
+  --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es './deno.lock').
   --no-lock # Desactivar la detección automática del archivo de bloqueo.
   --no-npm # No resolver los módulos npm.
   --no-remote # No resolver los modulos remoto.
@@ -35,7 +35,7 @@ extern "deno test" [
   --inspect-wait # Activa el inspector en host:puerto y espera a que el depurador se conecte antes de ejecutar el código de usuario.
   # Opciones de pruebas(testing)
   --clean # Vacíe el directorio de datos del perfil de cobertura temporal antes de ejecutar las pruebas. (puede generar condiciones de carrera si se llama multiple veces).
-  --coverage # Recopila datos del perfil de cobertura en DIR. Si no se especifica DIR, utiliza «coverage/». (variables DENO_COVERAGE_DIR en env)
+  --coverage # Recopila datos del perfil de cobertura en DIR. Si no se especifica DIR, utiliza 'coverage/'. (variables DENO_COVERAGE_DIR en env)
   --coverage-raw-data-only # Recopilar únicamente datos brutos de cobertura, sin generar un informe.
   --doc # Evalúa bloques de código en JSDoc y Markdown.
   --fail-fast # Detener después de N errores. Por defecto, se detiene tras el primer fallo.

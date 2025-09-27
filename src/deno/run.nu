@@ -2,13 +2,13 @@
 extern "deno run" [
   # Opciones de comprobacion(check)
   --check # Habilida la verificacion de tipos
-  --check=all # Se incluirán los módulos remotos. Como alternativa, se puede utilizar el subcomando «deno check».
+  --check=all # Se incluirán los módulos remotos. Como alternativa, se puede utilizar el subcomando 'deno check'.
   --no-check # Ya no comprueba los tipos
   # Opciones de manejo de dependencias
   --cached-only # Exigir que las dependencias remotas ya estén almacenadas en caché.
   --frozen # Mostrar un error si el archivo de bloqueo está desactualizado.
   --import-map # Cargar el archivo de mapa de importación desde un archivo local o una URL remota.
-  --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es «./deno.lock»).
+  --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es './deno.lock').
   --no-lock # Desactivar la detección automática del archivo de bloqueo.
   --no-npm # No resolver los módulos npm.
   --no-remote # No resolver los modulos remoto.
@@ -20,7 +20,7 @@ extern "deno run" [
   --cert # Cargar la autoridad de certificación desde un archivo codificado en PEM.
   --conditions # Utiliza este argumento para especificar condiciones personalizadas para las exportaciones de paquetes npm. (variable DENO_CONDITIONS de env)
   --config # Configure diferentes aspectos de Deno, incluyendo TypeScript, linting y formato de código. (Si tienes deno.json o deno.jsonc, este flag no es necesario)
-  --coverage # Recopila datos del perfil de cobertura en DIR. Si no se especifica DIR, utiliza «coverage/». (variable DENO_COVERAGE_DIR de env)
+  --coverage # Recopila datos del perfil de cobertura en DIR. Si no se especifica DIR, utiliza 'coverage/'. (variable DENO_COVERAGE_DIR de env)
   --env-file # Cargar variables de entorno desde un archivo local
   --ext # Establecer el tipo de contenido del archivo suministrado.
   --location # Valor de globalThis.location utilizado por algunas API web.
