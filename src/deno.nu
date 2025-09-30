@@ -6,6 +6,10 @@ def "deno" [] {
   # - crear una funcion para el flag --v8-flags en cada sub-comando que lo use
 }
 
+#Execution/Ejecucion
 source ./deno/run.nu
 source ./deno/serve.nu
-source ./deno/serve.nu
+source ./deno/task.nu
+
+#Tooling/Herramientas
+source ./deno/init.nu
