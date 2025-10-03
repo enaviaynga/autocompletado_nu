@@ -11,8 +11,9 @@ source ./deno/run.nu
 source ./deno/serve.nu
 source ./deno/task.nu
 
-#Tooling/Herramientas
-source ./deno/init.nu
-
 # Gestor de dependencias
 source ./deno/add.nu
+source ./deno/install.nu
+
+#Tooling/Herramientas
+source ./deno/init.nu
