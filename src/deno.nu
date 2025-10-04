@@ -10,6 +10,7 @@ def "deno" [] {
 source ./deno/run.nu
 source ./deno/serve.nu
 source ./deno/task.nu
+source ./deno/eval.nu
 
 # Gestor de dependencias
 source ./deno/add.nu
