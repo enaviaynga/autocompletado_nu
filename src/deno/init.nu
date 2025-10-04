@@ -6,4 +6,6 @@ extern "deno init" [
   --serve # Generar un proyecto de ejemplo para deno serve
   --help # Muestra informacion de ayuda
   # Flags inestables no añadidas: https://docs.deno.com/runtime/reference/cli/unstable_flags/
+  
+  ...args
 ]

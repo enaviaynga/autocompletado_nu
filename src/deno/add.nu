@@ -9,4 +9,5 @@ extern "deno add" [
   --frozen # Mostrar un error si el archivo de bloqueo está desactualizado.
   --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es "./deno.lock").
   --no-lock # Desactivar la detección automática del archivo de bloqueo.
+  ...args
 ]

@@ -37,4 +37,6 @@ extern "deno install" [
   --inspect # Activar inspector en host:puerto [predeterminado: 127.0.0.1:9229]
   --inspect-brk # Activar inspector en host:puerto, esperar a que el depurador se conecte y detener al inicio del script del usuario.
   --inspect-wait # Activar inspector en host:puerto y esperar a que el depurador se conecte antes de ejecutar el código del usuario.
+
+  ...args
 ]

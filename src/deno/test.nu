@@ -50,4 +50,6 @@ extern "deno test" [
   --no-clear-screen # No borre la pantalla del terminal cuando esté en modo de vigilancia.
   --watch # Verifica si se ha hecho un cambio para volver a ejecutar
   --watch-exclude # Para excluir archivos y rutas(patterns) de la vigilancia
+
+  ...args
 ]

@@ -11,4 +11,5 @@ extern "deno task" [
   --lock # Comprueba el archivo de bloqueo especificado. (Si no se proporciona ningún valor, el valor predeterminado es "./deno.lock").
   --no-lock # Desactivar la detección automática del archivo de bloqueo.
   --node-modules-dir # Establece el modo de gestión de módulos de nodo para paquetes npm.
+  ...args
 ]
